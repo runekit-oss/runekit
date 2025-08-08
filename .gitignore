@@ -2,6 +2,11 @@
 node_modules/
 *.log
 
+# npm
+package-lock.json
+npm-debug.log*
+npm-shrinkwrap.json
+
 # Build outputs
 /dist/
 /build/
@@ -36,3 +41,7 @@ Thumbs.db
 /src-tauri/**/*.dylib
 /src-tauri/debug/
 /src-tauri/release/
+
+# npm packages
+packages/*/*/node_modules/
+packages/*/.npm/

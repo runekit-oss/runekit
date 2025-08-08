@@ -35,7 +35,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.samlCommand = void 0;
 const commander_1 = require("commander");
-const core_1 = require("@rune/core");
+const core_1 = require("@runekit/core");
 const fs = __importStar(require("fs"));
 exports.samlCommand = new commander_1.Command('decode-saml')
     .description('Decodes a Base64-encoded SAML Response into human-readable, formatted XML')

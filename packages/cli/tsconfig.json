@@ -21,7 +21,11 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "composite": true
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@runekit/core": ["../core/src"]
+    }
   },
   "include": [
     "src/**/*"

@@ -1,5 +1,5 @@
 {
-  "name": "runekit",
+  "name": "@runekit/cli",
   "version": "1.0.0",
   "description": "CLI tool for the RuneKit Developer Suite",
   "main": "dist/index.js",
@@ -9,30 +9,32 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "jest --passWithNoTests",
+    "test": "jest",
     "test:watch": "jest --watch",
     "start": "node dist/index.js",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "cli",
     "developer-tools",
+    "cli",
     "formatter",
     "converter",
-    "decoder"
+    "decoder",
+    "offline",
+    "privacy-first"
   ],
-  "author": "RuneKit Contributors",
+  "author": "RuneKit Organization",
   "license": "MIT",
   "dependencies": {
     "@runekit/core": "^1.0.0",
-    "@types/commander": "^2.12.0",
-    "commander": "^11.0.0"
+    "commander": "^9.0.0",
+    "@types/commander": "^2.12.0"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.0",
-    "@types/node": "^20.0.0",
-    "jest": "^29.5.0",
-    "ts-jest": "^29.1.0",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
     "typescript": "^5.0.0"
   }
 }

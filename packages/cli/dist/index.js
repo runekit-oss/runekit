@@ -10,8 +10,8 @@ const jwt_1 = require("./commands/jwt");
 const saml_1 = require("./commands/saml");
 const program = new commander_1.Command();
 program
-    .name('rune')
-    .description('Rune - The Offline Developer Suite')
+    .name('runekit')
+    .description('RuneKit - The Offline Developer Suite')
     .version('1.0.0')
     .addCommand(json_1.jsonCommand)
     .addCommand(xml_1.xmlCommand)

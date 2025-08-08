@@ -35,7 +35,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.csvToCsvCommand = exports.csvToJsonCommand = void 0;
 const commander_1 = require("commander");
-const core_1 = require("@rune/core");
+const core_1 = require("@runekit/core");
 const fs = __importStar(require("fs"));
 exports.csvToJsonCommand = new commander_1.Command('csv-to-json')
     .description('Converts CSV data into a JSON array of objects')

@@ -14,4 +14,7 @@ module.exports = {
       statements: 90,
     },
   },
+  moduleNameMapper: {
+    '^@runekit/core$': '<rootDir>/../core/src',
+  },
 };

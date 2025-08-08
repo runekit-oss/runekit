@@ -35,7 +35,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.jwtCommand = void 0;
 const commander_1 = require("commander");
-const core_1 = require("@rune/core");
+const core_1 = require("@runekit/core");
 const fs = __importStar(require("fs"));
 exports.jwtCommand = new commander_1.Command('decode-jwt')
     .description('Decodes a JWT token and prints its header and payload as formatted JSON')
