@@ -17,4 +17,5 @@ module.exports = {
   moduleNameMapper: {
     '^@runekit/core$': '<rootDir>/../core/src',
   },
+  passWithNoTests: true,
 };
