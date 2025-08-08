@@ -1,6 +1,6 @@
 {
   "name": "runekit",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "RuneKit - The Offline Developer Suite",
   "private": true,
   "workspaces": [
