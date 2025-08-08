@@ -1,2 +1,2 @@
-# runekit
+# RuneKit
 RuneKit
