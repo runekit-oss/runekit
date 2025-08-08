@@ -1,5 +1,5 @@
 import { Command } from 'commander';
-import { formatYaml } from '@rune/core';
+import { formatYaml } from '@runekit/core';
 import * as fs from 'fs';
 
 export const yamlCommand = new Command('yaml')

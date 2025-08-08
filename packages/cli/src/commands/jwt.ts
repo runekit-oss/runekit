@@ -1,5 +1,5 @@
 import { Command } from 'commander';
-import { decodeJwt } from '@rune/core';
+import { decodeJwt } from '@runekit/core';
 import * as fs from 'fs';
 
 export const jwtCommand = new Command('decode-jwt')

@@ -1,5 +1,5 @@
 import { Command } from 'commander';
-import { formatXml } from '@rune/core';
+import { formatXml } from '@runekit/core';
 import * as fs from 'fs';
 
 export const xmlCommand = new Command('xml')

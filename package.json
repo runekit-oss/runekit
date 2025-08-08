@@ -1,7 +1,7 @@
 {
-  "name": "rune",
+  "name": "runekit",
   "version": "1.0.0",
-  "description": "Rune - The Offline Developer Suite",
+  "description": "RuneKit - The Offline Developer Suite",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -22,7 +22,7 @@
     "offline",
     "privacy-first"
   ],
-  "author": "Loki Contributors",
+  "author": "RuneKit Contributors",
   "license": "MIT",
   "devDependencies": {
     "turbo": "^1.13.4"

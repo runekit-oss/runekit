@@ -1,5 +1,5 @@
 import { Command } from 'commander';
-import { formatJson } from '@rune/core';
+import { formatJson } from '@runekit/core';
 import * as fs from 'fs';
 
 export const jsonCommand = new Command('json')

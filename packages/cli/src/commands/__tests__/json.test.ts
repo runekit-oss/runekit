@@ -14,7 +14,7 @@ describe('jsonCommand', () => {
   let program: Command;
 
   beforeEach(() => {
-    program = new Command('rune');
+    program = new Command('runekit');
     program.addCommand(jsonCommand);
     mockLog.mockClear();
     mockError.mockClear();
@@ -33,13 +33,13 @@ describe('jsonCommand', () => {
   });
 
   it('should format JSON with default indentation', () => {
-    program.parse(['rune', 'json', 'format-json', 'test.json']);
+    program.parse(['runekit', 'json', 'format-json', 'test.json']);
     
     expect(mockLog).toHaveBeenCalledWith('{\n  "name": "John",\n  "age": 30\n}');
   });
 
   it('should format JSON with custom indentation', () => {
-    program.parse(['rune', 'json', 'format-json', 'test.json', '--indent', '4']);
+    program.parse(['runekit', 'json', 'format-json', 'test.json', '--indent', '4']);
     
     expect(mockLog).toHaveBeenCalledWith('{\n    "name": "John",\n    "age": 30\n}');
   });
@@ -52,7 +52,7 @@ describe('jsonCommand', () => {
       return '';
     });
     
-    program.parse(['rune', 'json', 'format-json', 'test.json']);
+    program.parse(['runekit', 'json', 'format-json', 'test.json']);
     
     expect(mockError).toHaveBeenCalledWith(expect.stringContaining('Error: Invalid JSON:'));
     expect(mockExit).toHaveBeenCalledWith(1);
