@@ -1,5 +1,5 @@
 import { Command } from 'commander';
-import { decodeSaml } from '@rune/core';
+import { decodeSaml } from '@runekit/core';
 import * as fs from 'fs';
 
 export const samlCommand = new Command('decode-saml')

@@ -1,5 +1,5 @@
 import { Command } from 'commander';
-import { csvToJson, jsonToCsv } from '@rune/core';
+import { csvToJson, jsonToCsv } from '@runekit/core';
 import * as fs from 'fs';
 
 export const csvToJsonCommand = new Command('csv-to-json')

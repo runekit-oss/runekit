@@ -1,20 +1,20 @@
-# Rune - The Offline Developer Suite
+# RuneKit - The Offline Developer Suite
 
-![Rune Logo](https://via.placeholder.com/150) <!-- TODO: Replace with actual logo -->
+![RuneKit Logo](https://via.placeholder.com/150) <!-- TODO: Replace with actual logo -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-> ### **Why Rune?**
+> ### **Why RuneKit?**
 > Is it because this tool is a mischievous shapeshifter, masterfully transforming your data from one form to another—turning chaotic JSON into structured CSV, or decoding cryptic tokens into readable text?
-> Or is it just a simple shorthand for a **Ru**ne **De**veloper toolkit?
+> Or is it just a simple shorthand for a **Ru**ne**Kit** **De**veloper toolkit?
 > The answer is yes.
 
 ## Overview
 
-**Rune** is a comprehensive, open-source offline developer toolkit designed to help streamline common development tasks. Built with **privacy-first principles**, all processing happens 100% locally on the user's machine, with absolutely no data transmitted to external servers.
+**RuneKit** is a comprehensive, open-source offline developer toolkit designed to help streamline common development tasks. Built with **privacy-first principles**, all processing happens 100% locally on the user's machine, with absolutely no data transmitted to external servers.
 
-Rune provides a CLI tool, Web application, Desktop application, and Docker containers - all powered by a shared TypeScript core library.
+RuneKit provides a CLI tool, Web application, Desktop application, and Docker containers - all powered by a shared TypeScript core library.
 
 ## Features
 
@@ -27,21 +27,21 @@ Rune provides a CLI tool, Web application, Desktop application, and Docker conta
 
 ### CLI Tool
 
-Install the Rune CLI tool globally:
+Install the RuneKit CLI tool globally:
 
 ```bash
-npm install -g rune-cli
+npm install -g runekit
 ```
 
 Or use npx without installing:
 
 ```bash
-npx rune-cli --help
+npx runekit --help
 ```
 
 ### Web Application
 
-Visit [rune-web.example.com](https://rune-web.example.com) to use the web version.
+Visit [runekit-web.example.com](https://runekit-web.example.com) to use the web version.
 
 For self-hosting, check out our Docker images.
 
@@ -51,31 +51,31 @@ For self-hosting, check out our Docker images.
 
 ```bash
 # Format JSON
-rune format-json '{"name":"John","age":30}'
+runekit format-json '{"name":"John","age":30}'
 
 # Format XML
-rune format-xml '<root><child>text</child></root>'
+runekit format-xml '<root><child>text</child></root>'
 
 # Format YAML
-rune format-yaml 'name: John\nage: 30'
+runekit format-yaml 'name: John\nage: 30'
 
 # Convert CSV to JSON
-echo 'name,age\nJohn,30' | rune csv-to-json
+echo 'name,age\nJohn,30' | runekit csv-to-json
 
 # Convert JSON to CSV
-echo '[{"name":"John","age":30}]' | rune csv-to-csv
+echo '[{"name":"John","age":30}]' | runekit csv-to-csv
 
 # Decode JWT token
-rune decode-jwt eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9obiIsImFnZSI6MzB9.5B8B23GQ3GQ3GQ3GQ3GQ3GQ3GQ3GQ3GQ3GQ3GQ3GQ
+runekit decode-jwt eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9obiIsImFnZSI6MzB9.5B8B23GQ3GQ3GQ3GQ3GQ3GQ3GQ3GQ3GQ3GQ3GQ3GQ
 
 # Decode SAML response
-echo 'PHNhbWxwOlJlc3BvbnNlIHhtbG5zOnNhbWxwPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6cHJvdG9jb2wiPjwvc2FtbHA6UmVzcG9uc2U+' | rune decode-saml
+echo 'PHNhbWxwOlJlc3BvbnNlIHhtbG5zOnNhbWxwPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6cHJvdG9jb2wiPjwvc2FtbHA6UmVzcG9uc2U+' | runekit decode-saml
 ```
 
 All commands support reading from stdin when no argument is provided:
 
 ```bash
-cat data.json | rune format-json
+cat data.json | runekit format-json
 ```
 
 ## Platform Support
@@ -98,8 +98,8 @@ cat data.json | rune format-json
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/rune.git
-   cd rune
+   git clone https://github.com/your-username/runekit.git
+   cd runekit
    ```
 
 2. Install dependencies:
@@ -120,7 +120,7 @@ cat data.json | rune format-json
 ### Project Structure
 
 ```
-rune/
+runekit/
 ├── packages/
 │   ├── core/         # SHARED OFFLINE LOGIC (TypeScript)
 │   │   ├── src/formatters/   # JSON, XML, YAML formatters
@@ -151,5 +151,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Thanks to all contributors who have helped shape Rune
+- Thanks to all contributors who have helped shape RuneKit
 - Inspired by the need for privacy-first developer tools

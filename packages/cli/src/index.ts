@@ -11,8 +11,8 @@ import { samlCommand } from './commands/saml';
 const program = new Command();
 
 program
-  .name('rune')
-  .description('Rune - The Offline Developer Suite')
+  .name('runekit')
+  .description('RuneKit - The Offline Developer Suite')
   .version('1.0.0')
   .addCommand(jsonCommand)
   .addCommand(xmlCommand)

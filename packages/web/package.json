@@ -1,7 +1,7 @@
 {
-  "name": "@rune/web",
+  "name": "@runekit/web",
   "version": "1.0.0",
-  "description": "Rune Web Application",
+  "description": "RuneKit Web Application",
   "private": true,
   "scripts": {
     "dev": "react-scripts start",
@@ -10,19 +10,18 @@
     "eject": "react-scripts eject"
   },
   "keywords": [
-    "rune",
     "web",
     "developer-tools",
     "offline"
   ],
-  "author": "Rune Contributors",
+  "author": "RuneKit Contributors",
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "rune-cli": "^1.0.0",
-    "@rune/core": "^1.0.0"
+    "runekit": "^1.0.0",
+    "@runekit/core": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0",

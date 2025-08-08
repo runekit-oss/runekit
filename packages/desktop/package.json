@@ -1,7 +1,7 @@
 {
-  "name": "@rune/desktop",
+  "name": "@runekit/desktop",
   "version": "1.0.0",
-  "description": "Desktop application for the Rune developer suite",
+  "description": "Desktop application for the RuneKit developer suite",
   "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,11 +16,11 @@
     "offline",
     "privacy-first"
   ],
-  "author": "RuneKit Organization",
+  "author": "RuneKit Contributors",
   "license": "MIT",
   "dependencies": {
-    "@rune/core": "^1.0.0",
-    "rune-cli": "^1.0.0"
+    "@runekit/core": "^1.0.0",
+    "runekit": "^1.0.0"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.2.0",

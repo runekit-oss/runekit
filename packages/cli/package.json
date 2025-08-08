@@ -1,11 +1,11 @@
 {
-  "name": "rune-cli",
+  "name": "runekit",
   "version": "1.0.0",
-  "description": "CLI tool for the Rune Developer Suite",
+  "description": "CLI tool for the RuneKit Developer Suite",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "rune": "dist/index.js"
+    "runekit": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -21,10 +21,10 @@
     "converter",
     "decoder"
   ],
-  "author": "",
+  "author": "RuneKit Contributors",
   "license": "MIT",
   "dependencies": {
-    "@rune/core": "^1.0.0",
+    "@runekit/core": "^1.0.0",
     "@types/commander": "^2.12.0",
     "commander": "^11.0.0"
   },
