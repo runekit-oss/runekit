@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+*.log
+
+# Build outputs
+/dist/
+/build/
+/*.js
+/*.d.ts
+
+# Environment files
+.env*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+/coverage/
+*.test.js
+*.spec.js
+
+# Turborepo
+.turbo/
+
+# Tauri
+/src-tauri/target/
+/src-tauri/**/*.dll
+/src-tauri/**/*.so
+/src-tauri/**/*.dylib
+/src-tauri/debug/
+/src-tauri/release/

@@ -1,0 +1,33 @@
+{
+  "name": "@rune/desktop",
+  "version": "1.0.0",
+  "description": "Desktop application for the Rune developer suite",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"No tests specified for desktop package\" && exit 0",
+    "build": "tsc",
+    "tauri": "tauri"
+  },
+  "keywords": [
+    "developer-tools",
+    "desktop",
+    "offline",
+    "privacy-first"
+  ],
+  "author": "RuneKit Organization",
+  "license": "MIT",
+  "dependencies": {
+    "@rune/core": "^1.0.0",
+    "rune-cli": "^1.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  }
+}

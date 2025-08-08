@@ -1,0 +1,33 @@
+{
+  "name": "rune",
+  "version": "1.0.0",
+  "description": "Rune - The Offline Developer Suite",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "npm@9.6.7",
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "formatter",
+    "converter",
+    "decoder",
+    "offline",
+    "privacy-first"
+  ],
+  "author": "Loki Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^1.13.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
