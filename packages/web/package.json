@@ -1,6 +1,6 @@
 {
   "name": "@runekit/web",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "RuneKit Web Application",
   "private": true,
   "scripts": {
@@ -20,8 +20,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "runekit": "^1.0.0",
-    "@runekit/core": "^1.0.0"
+    "runekit": "^0.1.0",
+    "@runekit/core": "^0.1.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
