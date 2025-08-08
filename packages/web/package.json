@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+  "test": "CI=true react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
   },
   "keywords": [
@@ -24,9 +24,11 @@
     "@runekit/core": "^0.1.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0"
+  "typescript": "^5.0.0",
+  "@types/react": "^18.0.0",
+  "@types/react-dom": "^18.0.0",
+  "@testing-library/react": "^14.0.0",
+  "@testing-library/jest-dom": "^6.1.3"
   },
   "browserslist": {
     "production": [

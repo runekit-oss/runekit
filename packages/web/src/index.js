@@ -1,17 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>RuneKit Developer Suite</h1>
-        <p>Offline Developer Tools</p>
-      </header>
-    </div>
-  );
-}
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
